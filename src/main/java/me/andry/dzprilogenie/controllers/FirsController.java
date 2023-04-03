@@ -14,6 +14,7 @@ public class FirsController {
     public String helloWord(){
         return "Приложение запущенно";
     }
+
     @GetMapping("/info")
     public String info(){
         return "Имя ученика: " + userName + "\n" +
